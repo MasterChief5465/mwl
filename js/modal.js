@@ -1,0 +1,1 @@
+var modal=document.getElementById("myModal"),btn=document.getElementById("startButton");btn.onclick=function(){modal.style.display="block"},window.onclick=function(t){t.target==modal&&(modal.style.display="none")};

